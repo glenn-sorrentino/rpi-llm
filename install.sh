@@ -11,9 +11,9 @@ python3 -m venv llm_env
 source llm_env/bin/activate
 
 # Create the project directory structure
-mkdir -p llm_raspberry_pi
-cd llm_raspberry_pi
-mkdir datasets
+git clone https://github.com/glenn-sorrentino/rpi-llm.git
+cd rpi-llm/
+mkdir datasets/
 
 # Install TensorFlow (or PyTorch) and Hugging Face Transformers library
 pip install --upgrade pip
