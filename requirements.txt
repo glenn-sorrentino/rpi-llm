@@ -1,0 +1,4 @@
+tensorflow
+transformers
+mwparserfromhell
+# Add any additional dependencies for your application here
